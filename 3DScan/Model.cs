@@ -100,14 +100,14 @@ namespace _3DScan
                         xMax = p.X;                              //   TEST: Search a abscissa's front plane
                     if (p.X < xMin)                              //   TEST: Search a abscissa's front plane
                         xMin = p.X;                              //   TEST: Search a abscissa's front plane
-                    if (p.Y > yMax)                              //   TEST: Search a abscissa's front plane
-                        yMax = p.Y;                              //   TEST: Search a abscissa's front plane
-                    if (p.Y < yMin)                              //   TEST: Search a abscissa's front plane
-                        yMin = p.Y;                              //   TEST: Search a abscissa's front plane
-                    if (p.Z > zMax)                              //   TEST: Search a abscissa's front plane
-                        zMax = p.Z;                              //   TEST: Search a abscissa's front plane
-                    if (p.Z < zMin)                              //   TEST: Search a abscissa's front plane
-                        zMin = p.Z;                              //   TEST: Search a abscissa's front plane
+                    if (p.Y > yMax)                              //   TEST: Searching
+                        yMax = p.Y;                              //   TEST: Searching
+                    if (p.Y < yMin)                              //   TEST: Searching
+                        yMin = p.Y;                              //   TEST: Searching
+                    if (p.Z > zMax)                              //   TEST: Searching
+                        zMax = p.Z;                              //   TEST: Searching
+                    if (p.Z < zMin)                              //   TEST: Searching
+                        zMin = p.Z;                              //   TEST: Searching
 
                 }
                 this.points.Size = 2;
